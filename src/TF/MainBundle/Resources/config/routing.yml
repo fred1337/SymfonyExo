@@ -1,0 +1,14 @@
+main_default_home:
+    path: /home
+    defaults:
+        _controller: TFMainBundle:Default:Home
+
+main_default_contact:
+    path: /contact
+    defaults:
+        _controller: TFMainBundle:Default:Contact
+
+main_default_about:
+    path: /about
+    defaults:
+        _controller: TFMainBundle:Default:About
